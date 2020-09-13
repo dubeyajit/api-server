@@ -1,0 +1,1 @@
+docker run --name flask-base-os -it -v /Users/test/projects/flask/projectfiles:/projects/ -p 5000:5000 flask-base
