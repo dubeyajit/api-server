@@ -1,0 +1,2 @@
+docker run --name mongo-db-server -p 27017:27017 -it mngdbs
+docker run --name mongo-db-server -p 27017:27017 -it -v /Users/test/projects/mongodb/projectfiles/data:/data mngdbs
