@@ -5,7 +5,7 @@ if [ "$EUID" != "0" ]; then
 	exec sudo bash $0 $@
 fi
 
-
+docker rm -f mongo-db-server
 echo
 echo ==== Building Production Tool Docker image
 echo
