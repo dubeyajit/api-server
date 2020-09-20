@@ -13,7 +13,7 @@ RUN apt-get install -y python3-pip
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y python3-pip 2to3 unoconv vim
-RUN pip3 install --user chardet python-dateutil
+RUN pip3 install --user chardet python-dateutil simplejson Flask-Bcrypt
 
 # Further to add for flask project
 RUN pip3 install flask Flask-PyMongo pipenv
